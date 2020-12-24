@@ -20,7 +20,7 @@ function setParticles() {
     console.log(text1[0].offsetTop);
 
     const allname = document.getElementById('all-name');
-    const inText = "RENIZABYNIRMALDONALEXKAMALSACHINCHRISTO";
+    const inText = "RENIZABYNIRMALDONALEXKAMALSACHINCHRISTOJINTOAKHIL";
     let val = 0;
     while(val < 10) {
         allname.innerHTML += inText;
