@@ -49,6 +49,7 @@ body {
     background: linear-gradient(white,rgb(216, 216, 216));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    z-index: 20;
 }
 .title2 {
     position: absolute;
@@ -62,5 +63,17 @@ body {
 }
 #christmas-hat {
     position: absolute;
-    width: 60px;
+    width: 6vw;
+}
+#all-name {
+    background: white;
+    font-weight: bold;
+    font-style: italic;
+    color: #1c1c1c;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    opacity: 0.3;
+    font-size: 0.8vw;
 }

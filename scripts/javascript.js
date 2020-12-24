@@ -15,9 +15,17 @@ function setParticles() {
     const hat = document.getElementById("christmas-hat");
     const text1 = document.getElementsByClassName('title1');
     hat.style.left = text1[0].offsetLeft + "px";
-    hat.style.top = text1[0].offsetTop - 60 + "px";
+    hat.style.top = text1[0].offsetTop - 120 + "px";
     console.log(text1[0].offsetLeft);
     console.log(text1[0].offsetTop);
+
+    const allname = document.getElementById('all-name');
+    const inText = "RENIZABYNIRMALDONALEXKAMALSACHINCHRISTO";
+    let val = 0;
+    while(val < 10) {
+        allname.innerHTML += inText;
+        val++;
+    }
 }
 
 function createParticle() {
