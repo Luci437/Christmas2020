@@ -60,3 +60,7 @@ body {
     top: 50%;
     transform: translate(-50%, 150%);
 }
+#christmas-hat {
+    position: absolute;
+    width: 60px;
+}

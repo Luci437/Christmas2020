@@ -11,6 +11,13 @@ function setParticles() {
             clearInterval(this);
         }
     }, 1);
+
+    const hat = document.getElementById("christmas-hat");
+    const text1 = document.getElementsByClassName('title1');
+    hat.style.left = text1[0].offsetLeft + "px";
+    hat.style.top = text1[0].offsetTop - 60 + "px";
+    console.log(text1[0].offsetLeft);
+    console.log(text1[0].offsetTop);
 }
 
 function createParticle() {
